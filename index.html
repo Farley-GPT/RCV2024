@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ranked Choice Voting App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Ranked Choice Voting App</h1>
+  <div class="candidates">
+    <h2>Candidates:</h2>
+    <ul id="candidates-list">
+      <!-- candidates will be added here -->
+    </ul>
+  </div>
+  <div class="voting">
+    <h2>Cast Your Vote:</h2>
+    <form id="voting-form">
+      <label for="first-choice">First Choice:</label>
+      <select id="first-choice" name="first-choice"></select>
+      <br>
+      <label for="second-choice">Second Choice:</label>
+      <select id="second-choice" name="second-choice"></select>
+      <br>
+      <label for="third-choice">Third Choice:</label>
+      <select id="third-choice" name="third-choice"></select>
+      <br>
+      <button id="submit-vote">Submit Vote</button>
+    </form>
+  </div>
+  <div class="results">
+    <h2>Results:</h2>
+    <ul id="results-list">
+      <!-- results will be displayed here -->
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
